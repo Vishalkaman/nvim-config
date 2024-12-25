@@ -28,3 +28,9 @@ keymap.set("i", "<C-h>", "<left>", {desc = "Move Left in Insert Mode"})
 keymap.set("n", "<leader>qc", ":q<CR>", {desc = "Quit Current Window"})
 keymap.set("n", "<leader>qq", ":qa<CR>", {desc = "Quit All Windows"})
 
+-- Insert Lines when in INSERT MODE
+keymap.set("i", "<C-CR>", "<ESC>o", {desc = "Quit All Windows"})
+keymap.set("i", "<C-S-CR>", "<ESC>O", {desc = "Open a line above the current"})
+
+
+
